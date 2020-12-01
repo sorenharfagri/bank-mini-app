@@ -1,0 +1,138 @@
+.card-container {
+  display: grid;
+  margin: 24px 16px;
+  box-sizing: border-box;
+
+  grid-template-rows: 33% 33% 33%;
+
+  width: 328px;
+  height: 225px;
+  left: 16px;
+  top: 108px;
+
+  /* border-color: brown;
+  border-style: solid;  */
+
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgba(139, 164, 187, 0.12);
+  border-radius: 16px;
+}
+
+.card-row {
+  box-sizing: border-box;
+  margin: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Card number and card icon */
+
+.card-number-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  /* identical to box height, or 145% */
+  padding-left: 0px;
+  color: #141414;
+}
+
+/* Card holder and valid thru */
+
+.card-cardholder-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.user-icon {
+  padding-right: 14px;
+}
+
+.card-cardholder-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+
+  white-space: nowrap;
+
+  color: #8c9aae;
+}
+
+.card-valid-container {
+  align-items: center;
+}
+
+.card-valid-text-thru {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 16px;
+  /* identical to box height, or 200% */
+
+  margin: 0px;
+  text-transform: uppercase;
+  color: #8c9aae;
+}
+
+.card-valid-text-date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  /* identical to box height, or 147% */
+
+  /* 8C9AAE */
+
+  margin: 0px;
+  color: #8c9aae;
+}
+
+/* Balance */
+
+.card-balance-text-amountCurrency {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height, or 121% */
+
+  color: #141414;
+}
+
+.card-balance-text-yourbalance {
+  margin: 0;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  /* identical to box height, or 162% */
+
+  /* 8C9AAE */
+
+  text-align: center;
+
+  color: #8c9aae;
+}
+
+.card-balance-text-amountDollars {
+  margin: 0;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  color: #141414;
+}

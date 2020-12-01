@@ -1,0 +1,43 @@
+.card-item-container {
+  box-sizing: border-box;
+  height: 72px;
+  display: grid;
+  grid-template-columns: 90% 10%;
+
+  border-bottom: 1px solid #F1F3F9;
+}
+
+/* Card number and card icon */
+
+.card-item-number-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  
+  /* 141414 */
+
+  margin: 0px;
+  
+  color: #141414;
+}
+
+.card-item-icon {
+  margin-left: 16px;
+  margin-right: 5%;
+}
+
+.card-item-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.card-item-currentitem-icon {
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: 20px;
+}

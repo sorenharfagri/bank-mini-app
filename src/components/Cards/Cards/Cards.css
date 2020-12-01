@@ -1,0 +1,13 @@
+.cards-container {
+    margin: 0 auto;
+  
+    max-width: 360px;  /* Максимальная ширина основного контейнера */
+    min-width: 320px;   /* Минимальная ширина основного контейнера */
+    background-color: white;
+  }
+
+  .cards-list {
+    display: inline-block;
+    width: 100%;
+    overflow: auto;
+  }

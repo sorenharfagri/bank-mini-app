@@ -1,0 +1,111 @@
+/* Left group */
+
+.payment-record-container {
+  display: flex;
+  align-items: center;
+
+  height: 52px;
+  margin-right: 0px;
+  margin-bottom: 16px;
+}
+
+.payment-record-icon-container {
+  width: 44px;
+  height: 44px;
+  left: 38px;
+  top: 639px;
+
+  border: 1px solid burlywood;
+  box-sizing: border-box;
+  border-radius: 12px;
+
+  margin-left: 22px;
+  margin-right: 17px;
+}
+
+.payment-record-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.payment-record-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.02em;
+  
+
+  /* 141414 */
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  color: #141414;
+}
+
+.payment-record-date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 19px;
+  /* identical to box height, or 173% */
+
+  letter-spacing: 0.00636364em;
+
+  /* 8C9AAE */
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  color: #8c9aae;
+}
+
+/* Right container */
+/* Amount in currency/primary vault */
+
+.payment-record-amount-currency-container {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 22px;
+}
+
+.record-amount-currencyvault {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height, or 136% */
+
+  text-align: right;
+  letter-spacing: 0.0145455em;
+
+  color: #8c9aae;
+
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.record-amount-primaryvault {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  text-align: right;
+  letter-spacing: 0.0145455;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  /* 8C9AAE */
+
+  color: #8c9aae;
+}

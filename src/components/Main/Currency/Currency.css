@@ -1,0 +1,38 @@
+.currency-container {
+  display: grid;
+
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 40px;
+  box-sizing: border-box;
+
+  grid-template-rows: 20% 80%;
+
+  width: 328px;
+  height: 225px;
+  left: 16px;
+  top: 108px;
+
+  /* border-color: brown;
+  border-style: solid;  */
+}
+
+.currency-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.019em;
+
+  color: #141414;
+}
+
+.currency-card-list {
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

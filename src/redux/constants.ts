@@ -1,0 +1,4 @@
+export const ADD_CARD = 'ADD_CARD';
+export const SET_CURRENTCARD = 'SET_CURRENTCARD'
+export const SET_VALUTE = 'SET_VALUTE'
+export const SET_CURRENTVALUTE = 'SET_CURRENTVALUTE'

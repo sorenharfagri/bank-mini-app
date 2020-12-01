@@ -1,0 +1,7 @@
+.main-container {
+  margin: 0 auto;
+
+  max-width: 360px;  /* Максимальная ширина основного контейнера */
+  min-width: 320px;   /* Минимальная ширина основного контейнера */
+  background-color: #F1F3F9;
+}
